@@ -4,7 +4,7 @@ from typing import List
 
 # update ship (this is where your code goes)
 def updateShip1(ship: Ship, powerUps: List[PowerUp], targets: List[Target]):
-    #ship.queueCommand( ShipCmd_Thrust(1) )
+    ship.queueCommand( ShipCmd_Thrust(1) )
     pass
 
 
