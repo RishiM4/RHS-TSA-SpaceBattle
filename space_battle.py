@@ -65,7 +65,7 @@ def updateShipRishi(ship: Ship, powerUps: List[PowerUp], targets: List[Target]):
                 root = math.sqrt(discriminant) 
                 solutions.append((-b - root) / (2 * a)) 
                 solutions.append((-b + root) / (2 * a)) 
-            maxTime = ship.ammoMaxRange / Ammo.SPEED 
+        maxTime = ship.ammoMaxRange / Ammo.SPEED 
         validTimes = [] 
         for x in solutions : 
             if x > 0 and x < maxTime : 
